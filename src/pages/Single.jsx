@@ -1,7 +1,7 @@
 function Single(){
     return(
         <>
-            <h1>Arab</h1>
+            <h1>Szöveg5</h1>
         </>
     )
 }

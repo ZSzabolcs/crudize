@@ -1,7 +1,7 @@
 function Del(){
     return(
         <>
-            <h1>Buzi</h1>
+            <h1>Szöveg3</h1>
         </>
     )
 }

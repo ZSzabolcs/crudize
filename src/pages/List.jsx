@@ -1,7 +1,7 @@
 function List(){
     return(
         <>
-            <h1>Cigány</h1>
+            <h1>Szöveg1</h1>
         </>
     )
 }

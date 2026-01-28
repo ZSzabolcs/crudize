@@ -1,7 +1,7 @@
 function Upd(){
     return(
         <>
-            <h1>Migráns</h1>
+            <h1>Szöveg4</h1>
         </>
     )
 }

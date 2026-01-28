@@ -1,7 +1,7 @@
 function Mod(){
     return(
         <>
-            <h1>Nigger</h1>
+            <h1>Szöveg2</h1>
         </>
     )
 }
