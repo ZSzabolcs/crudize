@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import List from './pages/List'
+import Mod from './pages/Mod'
+import Del from './pages/Del'
+import Upd from './pages/Upd'
+import Single from './pages/Single'
 import './App.css'
 import { NavLink, Route, Routes } from 'react-router-dom'
 
@@ -19,7 +24,11 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path='/lista' element={}></Route>
+        <Route path='/' element={<List />}/>
+        <Route path='/' element={<Single />}/>
+        <Route path='/' element={<Mod />}/>
+        <Route path='/' element={<Upd />}/>
+        <Route path='/' element={<Del />}/>
       </Routes>
     </>
   )
