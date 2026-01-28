@@ -16,19 +16,19 @@ function App() {
     <>
       <h1>Teszt</h1>
       <nav className='d-flex gap-4 p-3 fs-3'>
-        <NavLink to="/listaOsszes"></NavLink>
-        <NavLink to="/listaEgy"></NavLink>
-        <NavLink to="/modositas"></NavLink>
-        <NavLink to="/feltoltes"></NavLink>
-        <NavLink to="/torles"></NavLink>
+        <NavLink to="/listaOsszes">Mindent is kilistáz </NavLink> |
+        <NavLink to="/listaEgy">Csak azt listázza ki amit kő </NavLink> |
+        <NavLink to="/modositas">Módosít </NavLink> |
+        <NavLink to="/feltoltes">Új elemet tölt fel </NavLink> |
+        <NavLink to="/torles">Kitöröl egy elemet </NavLink>
       </nav>
 
       <Routes>
-        <Route path='/' element={<List />}/>
-        <Route path='/' element={<Single />}/>
-        <Route path='/' element={<Mod />}/>
-        <Route path='/' element={<Upd />}/>
-        <Route path='/' element={<Del />}/>
+        <Route path='/listaOsszes' element={<List />}/>
+        <Route path='/listaEgy' element={<Single />}/>
+        <Route path='/modositas' element={<Mod />}/>
+        <Route path='/feltoltes' element={<Upd />}/>
+        <Route path='/torles' element={<Del />}/>
       </Routes>
     </>
   )
